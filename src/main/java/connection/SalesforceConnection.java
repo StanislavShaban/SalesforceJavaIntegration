@@ -18,12 +18,12 @@ import java.io.IOException;
  */
 public class SalesforceConnection {
 
-    static final String USERNAME     = "stanislav@jetbi.com";
-    static final String PASSWORD     = "1210QeAd";
+    static final String USERNAME     = "username.com";
+    static final String PASSWORD     = "password";
     static final String LOGINURL     = "https://login.salesforce.com";
     static final String GRANTSERVICE = "/services/oauth2/token?grant_type=password";
-    static final String CLIENTID     = "3MVG9ZL0ppGP5UrDHVZHE9xOvyL6CDC.U7VqzX.Z7IK3l9GRqJrflrGK3lv70xlYQAlISMjWDYKbhctQy8fvS";
-    static final String CLIENTSECRET = "1903381799139045246";
+    static final String CLIENTID     = "ConsumerKey";
+    static final String CLIENTSECRET = "";
 
     public static void main(String[] args) {
 
